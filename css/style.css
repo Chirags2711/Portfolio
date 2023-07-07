@@ -1,0 +1,96 @@
+.gradient-background {
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.container.footer{
+  max-width: none;
+  
+}
+small{
+  color: #CCCCCC;
+}
+.contact{
+  text-decoration:none;
+}
+
+.text-end .btn{
+  border: none;
+}
+
+.nav .nav-link{
+  font-size: 1.5vw;
+}
+
+
+.container{
+  display: flex;
+  width: 100vw;
+}
+
+section{
+  height: 100vh;
+}
+
+#about>.container{
+  height: 100vh;
+  justify-content: center;
+}
+
+
+
+#education{
+  background-color: ghostwhite;
+}
+
+#education .container{
+  /* margin-top: 10vh; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#contact .container{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 5vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+}
